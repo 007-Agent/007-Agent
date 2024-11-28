@@ -7,7 +7,9 @@ export const CartItem = ({ id, productName, price, productImage, count }) => {
       <img src={productImage} alt="yrjytrj" />
       <div className="description">
         <p>
-          <b>{productName}</b>
+          <b>
+            {productName} + {id}
+          </b>
         </p>
         <p> Price: ${price}</p>
         <div className="countHandler">

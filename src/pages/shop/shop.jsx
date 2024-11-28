@@ -13,6 +13,7 @@ function Shop() {
         {PRODUCTS.map((product) => (
           <Product
             key={product.id}
+            id={product.id}
             productName={product.productName}
             price={product.price}
             productImage={product.productImage}
